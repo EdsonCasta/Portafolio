@@ -1,17 +1,14 @@
 {
   "builds": [
     {
-      "src": "scr/package.json",
-      "use": "@vercel/next",
-      "config": {
-        "distDir": "scr/.next"
-      }
+      "src": "package.json",
+      "use": "@vercel/next"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/scr/$1"
+      "dest": "/$1"
     }
   ]
 }
