@@ -1,8 +1,18 @@
 {
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/"
+    "builds": [
+      {
+        "src": "portafilonext/package.json",
+        "use": "@vercel/next",
+        "config": {
+          "distDir": "portafilonext/.next"
         }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/portafilonext/scr/$1"
+      }
     ]
-}
+  }
+  
