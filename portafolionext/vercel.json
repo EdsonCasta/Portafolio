@@ -1,18 +1,17 @@
 {
-    "builds": [
-      {
-        "src": "portafilonext/package.json",
-        "use": "@vercel/next",
-        "config": {
-          "distDir": "portafilonext/.next"
-        }
+  "builds": [
+    {
+      "src": "scr/package.json",
+      "use": "@vercel/next",
+      "config": {
+        "distDir": "scr/.next"
       }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/portafilonext/scr/$1"
-      }
-    ]
-  }
-  
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/scr/$1"
+    }
+  ]
+}
