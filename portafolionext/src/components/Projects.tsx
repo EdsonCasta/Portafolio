@@ -2,6 +2,12 @@ import React from 'react';
 
 const projects = [
   {
+  title: "FlightOnTime",
+  description: "Plataforma predictiva que anticipa retrasos de vuelos a partir de más de 7 millones de registros históricos. Combina Inteligencia Artificial en Python con un backend robusto en Java Spring Boot para transformar datos en decisiones anticipadas. La solución ofrece predicciones explicables, validaciones estrictas y reutilización inteligente de resultados, enfocada en operación real para aerolíneas, pasajeros y equipos de planificación.",
+  image: "/images/Flight-On-Time.png",
+  link: "https://flight-on-time-mvp-h12-25-l-equipo33-1.onrender.com"
+  },
+  {
     title: "EbooksPalace",
     description: "E-commerce de libros digitales con funcionalidades de filtrado, ordenamiento, autenticación, carrito de compras, pagos, comentarios y gestión de imágenes con Cloudinary. Incluye un panel de administrador para gestionar usuarios y libros.",
     image: "/images/Ebookspalace.jpg",
