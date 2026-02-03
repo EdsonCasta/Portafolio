@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <div className="lg:w-1/2 w-full mb-6 lg:mb-0 px-4 lg:px-0">
           <h2 className="text-3xl font-semibold mb-6 text-blue-600">Sobre Mí 😊</h2>
           <p className="text-lg mb-6">
-            Soy Edson Orlando Castañeda Urrego, un desarrollador de 33 años de Bogotá, Colombia. 👨‍💻 Tengo experiencia en diversas tecnologías adquiridas a través de la participación en múltiples proyectos, lo que me ha permitido aplicar y profundizar mis conocimientos en áreas tanto de frontend como de backend. Estoy comprometido con el aprendizaje continuo 📚 y actualmente busco mi primer empleo en el sector IT, con el objetivo de seguir creciendo profesionalmente y contribuir de manera significativa a proyectos innovadores. 🚀
+            Soy Edson Orlando Castañeda Urrego, un desarrollador de 34 años de Bogotá, Colombia. 👨‍💻 Tengo experiencia en diversas tecnologías adquiridas a través de la participación en múltiples proyectos, lo que me ha permitido aplicar y profundizar mis conocimientos en áreas tanto de frontend como de backend. Estoy comprometido con el aprendizaje continuo 📚 y actualmente busco mi primer empleo en el sector IT, con el objetivo de seguir creciendo profesionalmente y contribuir de manera significativa a proyectos innovadores. 🚀
           </p>
           <p className="text-lg">
             Ofrezco servicios completos de desarrollo web, desde la creación de interfaces de usuario atractivas y responsivas hasta la implementación de funcionalidades complejas en el backend. 💼

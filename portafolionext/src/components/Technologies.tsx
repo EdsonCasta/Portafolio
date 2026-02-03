@@ -1,18 +1,28 @@
 import React from 'react';
-import { FaNodeJs, FaReact, FaJs, FaHtml5, FaCss3Alt, FaGitAlt } from 'react-icons/fa';
-import { SiPostgresql, SiRedux, SiSequelize, SiVisualstudiocode } from 'react-icons/si';
+import { FaNodeJs, FaReact, FaJs, FaHtml5, FaCss3Alt, FaJava, FaDocker  } from 'react-icons/fa';
+import { SiPostgresql, SiMysql, SiRedux, SiSequelize, SiVisualstudiocode, SiIntellijidea, 
+  SiSpringboot, SiJson, SiFastapi, SiGithub, SiGit } from 'react-icons/si';
 
 const technologies = [
+  { icon: <SiVisualstudiocode />, name: "Visual Studio Code" },
+  { icon: <SiIntellijidea />, name: "Intellij IDEA" },
+  { icon: <FaJs />, name: "JavaScript" },
+  { icon: <FaJava />, name: "Java" },
   { icon: <FaNodeJs />, name: "Node.js" },
-  { icon: <SiPostgresql />, name: "PostgreSQL" },
+  { icon: <SiSpringboot />, name: "Spring Boot" },
+  { icon: <SiPostgresql />, name: "PostgreSQL / H2" },
+  { icon: <SiMysql />, name: "MySQL" },
   { icon: <FaReact />, name: "React" },
   { icon: <SiRedux />, name: "Redux" },
-  { icon: <FaJs />, name: "JavaScript" },
   { icon: <FaHtml5 />, name: "HTML" },
   { icon: <FaCss3Alt />, name: "CSS" },
+  { icon: <SiGit />, name: "Git" },
   { icon: <SiSequelize />, name: "Sequelize" },
-  { icon: <FaGitAlt />, name: "Git" },
-  { icon: <SiVisualstudiocode />, name: "Visual Studio Code" }
+  { icon: <SiFastapi />, name: "IA Service (API)" },
+  { icon: <FaDocker />, name: "Docker" },
+  { icon: <SiJson />, name: "REST / JSON" },
+  { icon: <SiGithub />, name: "GitHub" },
+
 ];
 
 const Technologies: React.FC = () => {
